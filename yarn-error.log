@@ -1,0 +1,40 @@
+Arguments: 
+  /home/sam/.nvm/versions/node/v18.1.0/bin/node /home/sam/.yarn/bin/yarn.js index.js
+
+PATH: 
+  /home/sam/.yarn/bin:/home/sam/.config/yarn/global/node_modules/.bin:/home/sam/.yarn/bin:/home/sam/.config/yarn/global/node_modules/.bin:/home/sam/.nvm/versions/node/v18.1.0/bin:/home/sam/.cargo/bin:/home/sam/.local/bin:/home/sam/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/sam/arrow.com/package.json: Unexpected token } in JSON at position 206
+      at JSON.parse (<anonymous>)
+      at /home/sam/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/sam/.yarn/lib/cli.js:310:30)
+      at /home/sam/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "arrow.com",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type":"module",
+    "repository": "git@github.com:sammmkhannn/arrow.com.git",
+    "author": "sam",
+    "license": "MIT",
+    "private": true,
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,10 @@
+{
+  "name": "arrow.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "repository": "git@github.com:sammmkhannn/arrow.com.git",
+  "author": "sam",
+  "license": "MIT",
+  "private": true
+}
